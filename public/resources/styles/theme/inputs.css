@@ -1,0 +1,19 @@
+input {
+    font-family: 'Ubuntu', sans-serif;
+
+    padding: 16px;
+    border: 2px solid var(--input-border);
+    margin: 10px 0px;
+    border-radius: 4px;
+}
+
+input:hover, input:active, input:focus {
+    border-color: var(--input-border-focus);
+}
+
+input[type="submit"] {
+    background-color: var(--green);
+    border-color: var(--green);
+    cursor: pointer;
+    margin-top: 20px;
+}

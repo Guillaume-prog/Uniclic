@@ -1,0 +1,23 @@
+@import './theme/theme.css';
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#logo {
+    width: 120px;
+    margin-bottom: 60px;
+}
+
+.explain {
+    width: 80%;
+    margin: 10px auto;
+}
