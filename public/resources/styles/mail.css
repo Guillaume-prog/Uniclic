@@ -1,0 +1,23 @@
+.mail {
+    display: block;
+    text-decoration: none;
+
+    padding: 10px;
+    border-bottom: 2px solid var(--input-border);
+    color: var(--email-read);
+}
+
+.mail.unread {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mail .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.mail .time, .mail .subject {
+    font-size: 0.9em;
+}

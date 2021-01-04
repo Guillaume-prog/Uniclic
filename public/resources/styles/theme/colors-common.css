@@ -1,0 +1,11 @@
+:root {
+    --blue: #002e5d;
+    --green: #cddb30;
+    --grey: #f1f2f6;
+
+    --text-white: #fff;
+    --text-black: #000;
+
+    --input-border: #ddd;
+    --input-border-focus: #aaa;
+}

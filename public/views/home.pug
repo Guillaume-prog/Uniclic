@@ -1,9 +1,17 @@
 doctype html
 html
     head
-        title Hello world
-        link(rel="stylesheet", href="/styles/home.css")
+        include ./common/head.pug
     body
-        div#main
-            h1 Hello #{name}
-            p Coucou alexis
+        header
+            h1 #{pageName}
+            a(href="/settings")
+                i.material-icons settings
+
+        #main
+            h3 Mes services
+
+            #tabs
+                a#mail(href="/mail")   Webmail
+                a#edt(href="/edt")     EDT
+                a#notes(href="/notes") Notes

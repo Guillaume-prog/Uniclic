@@ -1,7 +1,15 @@
-@import 'colors.css';
+@import 'colors-common.css';
 @import 'fonts.css';
 @import 'inputs.css';
 
+@import 'header.css';
+
 * {
     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
 }

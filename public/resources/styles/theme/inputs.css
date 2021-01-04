@@ -3,8 +3,11 @@ input {
 
     padding: 16px;
     border: 2px solid var(--input-border);
-    margin: 10px 0px;
+    margin: 10px auto;
     border-radius: 4px;
+
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
 }
 
 input:hover, input:active, input:focus {
@@ -16,4 +19,6 @@ input[type="submit"] {
     border-color: var(--green);
     cursor: pointer;
     margin-top: 20px;
+
+    color: var(--text-black);
 }

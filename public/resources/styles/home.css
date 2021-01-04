@@ -1,5 +1,37 @@
-@import './colors.css';
+#main {
+    padding: 0 20px;
+}
 
-h1 {
-    color: var(--vert);
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    appearance: none;
+    color: var(--text-white);
+    text-decoration: none;
+}
+
+#tabs {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tabs a {
+    --size: 85px;
+
+    display: inline-block;
+
+    width: var(--size);
+    height: var(--size);
+    
+    text-align: center;
+    line-height: var(--size);
+
+    background-color: var(--green);
+    color: var(--text-black);
+    text-decoration: none;
 }

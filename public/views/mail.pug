@@ -1,0 +1,27 @@
+html
+    head
+        include ./common/head.pug
+    body    
+        include ./common/header.pug
+
+        #mails
+            a.mail(href="/mail/1234")
+                .info
+                    .sender Jean-Jacques BUCHON 
+                    .time   12:30
+                .subject    DUETI 2021/22 - More news !
+
+            a.mail.unread(href="/mail/1234")
+                .info
+                    .sender presidente@univ-nantes.fr 
+                    .time   Hier
+                .subject    Message de fin d'année
+
+            a.mail(href="/mail/1234")
+                .info
+                    .sender LECLECH-DEPLANCHE Anne-Marie ...
+                    .time   25 oct
+                .subject    FOR4774 : Espace de ressources d'information...
+                    
+                    
+            
