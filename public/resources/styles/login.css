@@ -23,3 +23,18 @@ body {
 input {
     display: block;
 }
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+    padding: 16px;
+    margin: 20px auto 10px;
+
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: var(--text-black);
+
+    border-radius: 4px;
+}

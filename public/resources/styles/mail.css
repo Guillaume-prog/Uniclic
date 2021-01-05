@@ -18,6 +18,16 @@
     margin-bottom: 15px;
 }
 
+.mail .right-info > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mail .right-info i {
+    margin-right: 5px;
+    font-size: 0.95em;
+}
+
 .mail .time, .mail .subject {
     font-size: 0.9em;
 }

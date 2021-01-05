@@ -1,0 +1,33 @@
+html
+    head
+        include common/head.pug
+    body
+        header
+            a#back(href="/mail")
+                i.material-icons arrow_back
+            h1 #{pageName}
+
+        #main
+            #presentation
+                p.from 
+                    b De: 
+                    | isabelle.vallee@univ-nantes.fr
+                p.date
+                    b Date: 
+                    | le 20 oct 2020 à 12h15
+                p.subject
+                    b Sujet: 
+                    | Informations sur le rapport d'An3
+
+            #content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eveniet! Officia aliquam labore ducimus ut sint corporis a ratione, voluptatem cupiditate consectetur recusandae repellendus commodi amet nisi laboriosam minima unde?
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium id corporis! Iure, accusamus molestiae? Tempore error, porro ex dolor iure officiis dolorem vel illum. Soluta reiciendis est velit quas.
+                
+                p Isabelle Vallee
+
+            #attachements
+                h4 Attachements
+                ul
+                    li
+                        a info.pdf
+            

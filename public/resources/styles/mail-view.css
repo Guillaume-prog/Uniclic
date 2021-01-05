@@ -1,0 +1,17 @@
+#main {
+    padding: 5px 20px;
+}
+
+#presentation {
+    font-size: 0.9em;
+    border-bottom: 2px solid var(--input-border);
+}
+
+#content {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#attachements {
+    border-top: 2px solid var(--input-border);
+}
