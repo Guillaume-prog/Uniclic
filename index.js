@@ -69,7 +69,7 @@ const render404 = (res) => {
 /* Server init */
 http.createServer(app).listen(3000, () => console.log("App running on port 3000"))
 
-/*https.createServer({
+https.createServer({
     key: fs.readFileSync('private/server.key'),
     cert: fs.readFileSync('private/server.cert')
-}, app).listen(3001, () => console.log("App running on port 443"))*/
+}, app).listen(3001, () => console.log("App running on port 3001"))

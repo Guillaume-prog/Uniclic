@@ -1,0 +1,145 @@
+.td {
+    background-color: var(--grey);
+    --color: var(--text-black);
+}
+
+.cm {
+    background: var(--green);
+    --color: var(--text-black);
+}
+
+.tp {
+    background-color: var(--blue);
+    color: var(--text-white);
+    --color: var(--text-white);
+}
+
+.ds {
+    background-color: #6ca6cd;
+    --color: var(--text-black);
+}
+
+.na {
+    background-color: #177245;
+    color: var(--text-white);
+    --color: var(--text-white);
+}
+
+.day {
+    background-color: var(--text-black);
+    color: var(--text-white);
+}
+
+
+.lesson {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lesson .time {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.lesson .zoom {
+    color: var(--color);
+    text-decoration: none;
+    border: 2px solid var(--color);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#edt-grid {
+    --row-height: 35px;
+
+    display: grid;
+    font-size: 0.75em;
+    
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    line-height: var(--row-height);
+    text-align: center;
+
+    grid-gap: 8px;
+    grid-template-areas: 
+        "mon . a a . . ."
+        "tue b b b . . ."
+        "wed . c c d e f"
+        "thu . g h i i ."
+        "fri . . . j . .";
+}
+
+#edt-grid * {
+    padding: 5px;
+}
+
+#au1 {
+    grid-area: a;
+}
+
+#er1 {
+    grid-area: b;
+}
+
+#se1 {
+    grid-area: c;
+}
+
+#po1 {
+    grid-area: d;
+}
+
+#po2 {
+    grid-area: e;
+}
+
+#fo1 {
+    grid-area: f;
+}
+
+#ma1 {
+    grid-area: g;
+}
+
+#ma2 {
+    grid-area: h;
+}
+
+#po3 {
+    grid-area: i;
+}
+
+#ma3 {
+    grid-area: j;
+}
+
+#mon {
+    grid-area: mon;
+}
+
+#tue {
+    grid-area: tue;
+}
+
+#wed {
+    grid-area: wed;
+}
+
+#thu {
+    grid-area: thu;
+}
+
+#fri {
+    grid-area: fri;
+}
+
+#ds {
+    padding-left: 10px;
+}
+
+#ds > * {
+    margin: 10px;
+}
